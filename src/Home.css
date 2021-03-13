@@ -1,0 +1,28 @@
+.home__ciontainer{
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1500px;
+}
+
+.home__row{
+    display:flex;
+    z-index:1;
+    margin-left:5px;
+    margin-right: 5px;
+}
+/* the above css code here created the card view :O */
+
+.home__image{
+    display:flex;
+    /* position:fixed; */
+    width: 100%;
+    height: 50%;
+    z-index: -2;
+    margin-bottom: -550px;
+    /* margin-top:-00px; */
+    /* margin-left:5%; */
+    mask-image: linear-gradient(to bottom,rgba(0,0, 
+     0,1),rgba(0,0,0,0));
+}
